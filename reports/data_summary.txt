@@ -1,0 +1,12 @@
+Dataset Name	Rows	Columns
+--------------------------------------------------
+01_fund_master.csv	40	15
+02_nav_history.csv	46000	3
+03_aum_by_fund_house.csv	90	5
+04_monthly_sip_inflows.csv	48	6
+05_category_inflows.csv	144	3
+06_industry_folio_count.csv	21	6
+07_scheme_performance.csv	40	19
+08_investor_transactions.csv	32778	13
+09_portfolio_holdings.csv	322	8
+10_benchmark_indices.csv	8050	3
