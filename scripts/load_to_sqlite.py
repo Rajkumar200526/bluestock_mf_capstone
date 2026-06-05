@@ -26,6 +26,10 @@ performance = pd.read_csv(
     "data/processed/clean_performance.csv"
 )
 
+aum = pd.read_csv(
+    "data/processed/clean_aum.csv"
+)
+
 print("Saving Tables...")
 
 fund.to_sql(
@@ -51,6 +55,13 @@ transactions.to_sql(
 
 performance.to_sql(
     "fact_performance",
+    conn,
+    if_exists="replace",
+    index=False
+)
+
+aum.to_sql(
+    "fact_aum",
     conn,
     if_exists="replace",
     index=False

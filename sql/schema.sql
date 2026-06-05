@@ -28,3 +28,15 @@ CREATE TABLE fact_performance (
     sharpe_ratio REAL,
     alpha REAL
 );
+CREATE TABLE dim_date (
+    date_key DATE PRIMARY KEY,
+    year INTEGER,
+    month INTEGER,
+    quarter INTEGER
+);
+
+CREATE TABLE fact_aum (
+    date DATE,
+    fund_house TEXT,
+    aum_crore REAL
+);
