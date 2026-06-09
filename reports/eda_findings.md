@@ -49,7 +49,7 @@ The majority of investors were KYC verified, indicating strong regulatory compli
 
 ### 10. Fund Correlation
 
-Funds within similar categories exhibited strong positive return correlations, suggesting similar market exposure and risk behavior.
+Funds within similar categories exhibited strong positive return correlations, suggesting sigit statusmilar market exposure and risk behavior.
 **Reference:** correlation_matrix.png
 
 ## Conclusion
