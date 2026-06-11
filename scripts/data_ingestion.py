@@ -1,3 +1,18 @@
+"""
+Data Ingestion Script
+
+Author: Ampolu Raj Kumar
+Project: Mutual Fund Analytics Platform
+
+Description:
+Reads all raw CSV files from the data/raw folder
+and performs initial dataset inspection including:
+
+- Shape
+- Data Types
+- Missing Values
+- Sample Records
+"""
 import pandas as pd
 import os
 

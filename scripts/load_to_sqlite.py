@@ -1,3 +1,12 @@
+"""
+Load cleaned mutual fund datasets into SQLite database.
+
+Author: Ampolu Raj Kumar
+Project: Mutual Fund Analytics Platform
+Description:
+Loads cleaned datasets into SQLite fact and dimension tables
+for analytical processing and dashboard reporting.
+"""
 import sqlite3
 import pandas as pd
 

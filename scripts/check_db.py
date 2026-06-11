@@ -1,3 +1,13 @@
+"""
+Database Verification Script
+
+Author: Ampolu Raj Kumar
+Project: Mutual Fund Analytics Platform
+
+Description:
+Verifies SQLite database creation and
+checks availability of all tables.
+"""
 import sqlite3
 
 conn = sqlite3.connect(

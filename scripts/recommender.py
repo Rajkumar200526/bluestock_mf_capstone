@@ -1,3 +1,13 @@
+"""
+Mutual Fund Recommendation Engine
+
+Author: Ampolu Raj Kumar
+Project: Mutual Fund Analytics Platform
+
+Description:
+Recommends top mutual funds based on
+investor risk appetite and Sharpe Ratio ranking.
+"""
 import pandas as pd
 
 scorecard = pd.read_csv(
